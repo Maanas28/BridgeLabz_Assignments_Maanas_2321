@@ -21,3 +21,15 @@ Completed topics:
 
 ## 5-12-2024 (Thurday): 
 - Completed UseCase-4, UseCase-5, UseCase-6 from the employee wage project.
+
+## 6-12-2024 (Friday):
+- Did the theoratical topics of JavaScript.
+
+## 9-12-2024 (Monday):
+- Completed the topics:
+  - Spread Operator.
+  - Sets and its Methods.
+  - Map and its Methods.
+  - Iterators.
+  - Destructuring.
+  - All the tasks given in the class.
