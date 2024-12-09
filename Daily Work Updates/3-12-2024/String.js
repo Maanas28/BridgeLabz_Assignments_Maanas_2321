@@ -29,12 +29,12 @@ console.log("----------------------------------");
 console.log("Extracting Parts of the String:");
 console.log("slice(7, 17):", str.slice(7, 17)); // Extracts 'JavaScript' (start to end index - 1)
 console.log("substring(7, 17):", str.substring(7, 17)); // Similar to slice
-console.log("substr(7, 10):", str.substr(7, 10)); // Extracts 'JavaScript' (start and length)
 console.log("----------------------------------");
 
 // Replacing parts of a string
 console.log("Replacing Parts of the String:");
 console.log("replace('JavaScript', 'World'):", str.replace("JavaScript", "World")); // Replaces 'JavaScript' with 'World'
+console.log("replaceAll('JavaScript', 'World'):", str.replaceAll("JavaScript", "World")); // Replaces  all the occurances of 'JavaScript' with 'World'
 console.log("----------------------------------");
 
 // Splitting the string into an array
@@ -57,6 +57,18 @@ console.log("----------------------------------");
 // Repeating a string
 console.log("Repeating a String:");
 console.log("repeat(3):", str.repeat(3)); // Repeats the string 3 times
+console.log("----------------------------------");
+
+// Accessing the code of the specific character in string
+console.log("Accessing the code of the specific character in string:");
+console.log("str.charCodeAt(4):", str.charCodeAt(4));
+console.log("----------------------------------");
+
+// Padding the strings
+let stringToPad = "5";
+console.log("Padding the elements of the string: ");
+console.log("str.padStart(4):", stringToPad.padStart(4, "0"));
+console.log("str.padEnd(4):", stringToPad.padEnd(4, "0"));
 console.log("----------------------------------");
 
 // Splitting a string into characters using spread operator
