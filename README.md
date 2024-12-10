@@ -33,3 +33,6 @@ Completed topics:
   - Iterators.
   - Destructuring.
   - All the tasks given in the class.
+  
+## 10-12-2024 (Tuesday):
+Solved Questions on Arrys (Medium and Easy Level).
