@@ -36,3 +36,7 @@ Completed topics:
   
 ## 10-12-2024 (Tuesday):
 - Solved Questions on Arrys (Medium and Easy Level).
+
+## 11-12-2024 (Wednesday):
+- Completed ways of insertions, deletions, searching and traversals in tthe array data structure.
+- Completed first 10 questions of the assignment given today. 
