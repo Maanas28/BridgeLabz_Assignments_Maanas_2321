@@ -40,3 +40,10 @@ Completed topics:
 ## 11-12-2024 (Wednesday):
 - Completed ways of insertions, deletions, searching and traversals in tthe array data structure.
 - Completed first 10 questions of the assignment given today. 
+
+## 12-12-2024 (Thursday):
+- Solved questions given to us
+- Code stacka dn Queues using arrays as a internal data structure.
+
+## 13-12-2024 (Friday): 
+- Complete the questions given to us in the class and releated topics.
