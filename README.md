@@ -47,3 +47,17 @@ Completed topics:
 
 ## 13-12-2024 (Friday): 
 - Complete the questions given to us in the class and releated topics.
+
+## 16-12-2024 (Monday):
+- Completed the following topics:
+  - Async-await
+  - Callbacks
+  - Callback Hell
+  - IFEE
+  - Promises
+
+## 18-12-2024 (Wednesday): 
+- Infix to PostFix
+- PostFix to Infix
+- Linked Lists Implementation.
+- 
