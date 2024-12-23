@@ -60,4 +60,7 @@ Completed topics:
 - Infix to PostFix
 - PostFix to Infix
 - Linked Lists Implementation.
-- 
+
+## 20-12-2024 (Friday) : 
+- Various Method of linked list
+- Solved Medium and Easy level of LinkedList questions on LeetCode.
