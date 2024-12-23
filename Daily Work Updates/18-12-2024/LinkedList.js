@@ -84,43 +84,45 @@ class LinkedList {
     }
 }
 
-const list = new LinkedList();
+// const list = new LinkedList();
 
-// Add elements to the list
-list.addElement(10);
-list.addElement(20);
-list.addElement(30);
-console.log("After adding elements:");
-list.traverse(); 
+// // Add elements to the list
+// list.addElement(10);
+// list.addElement(20);
+// list.addElement(30);
+// console.log("After adding elements:");
+// list.traverse(); 
 
-console.log("----------------------------------------")
+// console.log("----------------------------------------")
 
-// Add an element at the start
-list.addFirst(5);
-console.log("After adding an element at the start:");
-list.traverse();
+// // Add an element at the start
+// list.addFirst(5);
+// console.log("After adding an element at the start:");
+// list.traverse();
 
-console.log("----------------------------------------")
+// console.log("----------------------------------------")
 
-// Remove an element
-list.removeElement(20);
-console.log("After removing the element 20:");
-list.traverse(); 
+// // Remove an element
+// list.removeElement(20);
+// console.log("After removing the element 20:");
+// list.traverse(); 
 
-console.log("----------------------------------------")
+// console.log("----------------------------------------")
 
-// Search for an element
-const foundNode = list.searchElement(10);
-console.log("Found node:", foundNode ? foundNode.value : "Not found"); 
+// // Search for an element
+// const foundNode = list.searchElement(10);
+// console.log("Found node:", foundNode ? foundNode.value : "Not found"); 
 
-console.log("----------------------------------------")
+// console.log("----------------------------------------")
 
-// Check the size of the linked list
-console.log("Size of the list:", list.size()); 
+// // Check the size of the linked list
+// console.log("Size of the list:", list.size()); 
 
-console.log("----------------------------------------")
+// console.log("----------------------------------------")
 
-// Traverse the list
-list.traverse();
+// // Traverse the list
+// list.traverse();
 
-console.log("----------------------------------------")
+// console.log("----------------------------------------")
+
+module.exports = { LinkedList, Node };
