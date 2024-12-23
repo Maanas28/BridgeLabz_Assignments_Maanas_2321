@@ -64,3 +64,7 @@ Completed topics:
 ## 20-12-2024 (Friday) : 
 - Various Method of linked list
 - Solved Medium and Easy level of LinkedList questions on LeetCode.
+
+## 23-12-2024 (Monday):
+- Implemented Stack With LinkedList.
+- Implemented Queues with Arrays and LinkedList.
