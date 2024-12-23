@@ -43,7 +43,7 @@ Completed topics:
 
 ## 12-12-2024 (Thursday):
 - Solved questions given to us
-- Code stacka dn Queues using arrays as a internal data structure.
+- Implemented Stacks using Arrays.
 
 ## 13-12-2024 (Friday): 
 - Complete the questions given to us in the class and releated topics.
