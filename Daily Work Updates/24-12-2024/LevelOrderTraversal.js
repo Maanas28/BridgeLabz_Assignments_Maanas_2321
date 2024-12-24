@@ -1,4 +1,4 @@
-const { BinarySearchTree } = require('../23-12-2024/BinarySearchTrees');
+const { BinarySearchTree } = require('./BinarySearchTrees');
 const { Queue } = require('../23-12-2024/QueueWithArray');
 
 let bst = new BinarySearchTree();
