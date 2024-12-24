@@ -5,7 +5,7 @@ class Queue {
 
     add(value) {
         this.queue.push(value);
-        console.log(`Added element: ${value}`);
+       // console.log(`Added element: ${value}`);
     }
 
     poll() {
@@ -14,7 +14,7 @@ class Queue {
             return null;
         }
         const removed = this.queue.shift();
-        console.log(`Removed element: ${removed}`);
+        //console.log(`Removed element: ${removed}`);
         return removed;
     }
 
@@ -47,23 +47,26 @@ class Queue {
 // Example usage:
 const queue = new Queue();
 
-console.log("-------------------------------");
-console.log("-------------------------------");
-queue.add(10);
-console.log("-------------------------------");
-queue.add(20);
-console.log("-------------------------------");
-queue.printQueue();
-console.log("-------------------------------");
-queue.peek();
-console.log("-------------------------------");
-queue.poll();
-console.log("-------------------------------");
-queue.printQueue();
-console.log("-------------------------------");
-queue.poll();
-console.log("-------------------------------");
-queue.printQueue();
-console.log("-------------------------------");
-queue.isEmpty();
-console.log("-------------------------------");
+// console.log("-------------------------------");
+// console.log("-------------------------------");
+// queue.add(10);
+// console.log("-------------------------------");
+// queue.add(20);
+// console.log("-------------------------------");
+// queue.printQueue();
+// console.log("-------------------------------");
+// queue.peek();
+// console.log("-------------------------------");
+// queue.poll();
+// console.log("-------------------------------");
+// queue.printQueue();
+// console.log("-------------------------------");
+// queue.poll();
+// console.log("-------------------------------");
+// queue.printQueue();
+// console.log("-------------------------------");
+// queue.isEmpty();
+// console.log("-------------------------------");
+
+
+module.exports = { Queue };

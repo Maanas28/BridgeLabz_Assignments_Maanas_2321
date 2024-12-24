@@ -133,22 +133,25 @@ bst.insert(5);
 bst.insert(20);
 bst.insert(30);
 
-console.log("In-order Traversal:");
-bst.inorder();
+// console.log("In-order Traversal:");
+// bst.inorder();
 
-console.log("\nPre-order Traversal:");
-bst.preorder();
+// console.log("\nPre-order Traversal:");
+// bst.preorder();
 
-console.log("\nPost-order Traversal:");
-bst.postorder();
+// console.log("\nPost-order Traversal:");
+// bst.postorder();
 
-bst.remove(25);
+// bst.remove(25);
 
-console.log("\nIn-order Traversal after removing 25:");
-bst.inorder();
+// console.log("\nIn-order Traversal after removing 25:");
+// bst.inorder();
 
-console.log("\nPre-order Traversal after removing 25:");
-bst.preorder();
+// console.log("\nPre-order Traversal after removing 25:");
+// bst.preorder();
 
-console.log("\nPost-order Traversal after removing 25:");
-bst.postorder();
+// console.log("\nPost-order Traversal after removing 25:");
+// bst.postorder();
+
+
+module.exports = { TreeNode, BinarySearchTree };
