@@ -68,3 +68,8 @@ Completed topics:
 ## 23-12-2024 (Monday):
 - Implemented Stack With LinkedList.
 - Implemented Queues with Arrays and LinkedList.
+- Read About trees and thier types.
+
+## 24-12-2024 (Tuesday):
+- Implemented trees using pointers.
+- Implemented various types of traversals in trees.
