@@ -95,8 +95,34 @@ class BinarySearchTree{
     inorder() {
         this.inorderTraversal(this.root);
     }
-}
+    // Pre-order Traversal
+    preorderTraversal(node) {
+        if (node !== null) {
+            console.log(node.data);
+            this.preorderTraversal(node.left);
+            this.preorderTraversal(node.right);
+        }
+    }
 
+    preorder() {
+        console.log("Pre-order Traversal:");
+        this.preorderTraversal(this.root);
+    }
+
+    // Post-order Traversal
+    postorderTraversal(node) {
+        if (node !== null) {
+            this.postorderTraversal(node.left);
+            this.postorderTraversal(node.right);
+            console.log(node.data);
+        }
+    }
+
+    postorder() {
+        console.log("Post-order Traversal:");
+        this.postorderTraversal(this.root);
+    }
+}
 
 const bst = new BinarySearchTree();
 
@@ -110,7 +136,19 @@ bst.insert(30);
 console.log("In-order Traversal:");
 bst.inorder();
 
-bst.remove(30);
-console.log("In-order Traversal after removing 10:");
+console.log("\nPre-order Traversal:");
+bst.preorder();
+
+console.log("\nPost-order Traversal:");
+bst.postorder();
+
+bst.remove(25);
+
+console.log("\nIn-order Traversal after removing 25:");
 bst.inorder();
 
+console.log("\nPre-order Traversal after removing 25:");
+bst.preorder();
+
+console.log("\nPost-order Traversal after removing 25:");
+bst.postorder();
