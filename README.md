@@ -73,3 +73,26 @@ Completed topics:
 ## 24-12-2024 (Tuesday):
 - Implemented trees using pointers.
 - Implemented various types of traversals in trees.
+
+## 26-12-2024 (Thursday) : 
+- Implemented HashTable
+- Solved some questions on Trees, Arrays and LinkedList in js on LeetCode.
+
+## 08-01-2025 (Wednesday):
+- Worked on various topics:
+ - Objects
+ - Classes
+ - Object references and copying
+ - "this" keyword
+ - Constructor
+ - operator "new"
+
+## 09-01-2025 (Thursday):
+- Implmentation of all above toipcs
+- Object methods and thier implementation
+- Optional chaining '?.'
+- Object to primitive conversion
+- Property flags and descriptors
+- Prototypes
+- Inheritance
+- Native prototypes
