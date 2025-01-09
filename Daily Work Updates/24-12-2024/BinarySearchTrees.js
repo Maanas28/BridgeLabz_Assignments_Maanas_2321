@@ -126,21 +126,20 @@ class BinarySearchTree{
 
 const bst = new BinarySearchTree();
 
-bst.insert(15);
-bst.insert(10);
-bst.insert(25);
+bst.insert(1);
+bst.insert(2);
+bst.insert(3);
+bst.insert(4);
 bst.insert(5);
-bst.insert(20);
-bst.insert(30);
 
-// console.log("In-order Traversal:");
-// bst.inorder();
+console.log("In-order Traversal:");
+bst.inorder();
 
-// console.log("\nPre-order Traversal:");
-// bst.preorder();
+console.log("\nPre-order Traversal:");
+bst.preorder();
 
-// console.log("\nPost-order Traversal:");
-// bst.postorder();
+console.log("\nPost-order Traversal:");
+bst.postorder();
 
 // bst.remove(25);
 

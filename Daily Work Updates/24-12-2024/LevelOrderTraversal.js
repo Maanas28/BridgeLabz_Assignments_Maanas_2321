@@ -3,12 +3,14 @@ const { Queue } = require('../23-12-2024/QueueWithArray');
 
 let bst = new BinarySearchTree();
 
-bst.insert(15);
-bst.insert(10);
-bst.insert(25);
+
+
+bst.insert(3);
+bst.insert(1);
+bst.insert(2);
+bst.insert(4);
 bst.insert(5);
-bst.insert(20);
-bst.insert(30);
+
 
 function levelOrderTraversal(root) {
     if (!root) {
